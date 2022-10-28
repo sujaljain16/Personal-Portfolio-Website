@@ -7,7 +7,7 @@ const Technologies = () =>  (
   <Section id='tech'>
     <SectionDivider /><br />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>I've worked with various technologies in the web development and also tried latest technologies including blockchain
+    <SectionText>I've worked with various technologies in the web development domain and also working on latest technologies like web 3.0, solidity etc..
 
     </SectionText>
     <List>

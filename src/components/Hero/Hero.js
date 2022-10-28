@@ -1,20 +1,21 @@
 import React from 'react';
-
+import {useNavigate} from 'react-router-dom';
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
+import { CarouselMobileScrollNode } from '../TimeLine/TimeLineStyles';
 import { LeftSection } from './HeroStyles';
 
 const Hero = (props) => (
 <Section row nopadding>
 <LeftSection>
   <SectionTitle main center>
-    Hii there<br />
-    I am Sujal Jain..
+  Hey👋 <br />
+  I'm Sujal Jain
   </SectionTitle>
   <SectionText>
-    I am a Web Devoloper and make user friendly websites .
+    I am a full stack Web Devoloper, designer and programmer.
   </SectionText>
-  <Button onclick={()=>window.location='http://github.com'}>Learn more</Button>
+  <Button onClick={()=>window.location='https://github.com/sujaljain16'}>Learn more</Button>
 </LeftSection>
 </Section>
 );
